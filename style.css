@@ -158,6 +158,128 @@ header button {
   }
 }
 
+/* section first */
+
+/* font-family: 'Saira Condensed', sans-serif;
+font-family: 'Saira', sans-serif; */
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+.features {
+  padding: 5%;
+  text-align: center;
+  max-width: 1600px;
+  margin: 50px auto;
+}
+
+.features h1 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.features img {
+  width: 100%;
+  max-width: 375px;
+  margin: 5px 0;
+}
+
+.features h2 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.features p {
+  font-family: 'Saira', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+@media(min-width: 360px) {
+  .features h1 {
+    font-size: 28px;
+  }
+
+  .features h2 {
+    font-size: 24px;
+  }
+
+  .features p {
+    font-size: 16px;
+  }
+}
+
+@media(min-width: 768px) {
+  .features h1 {
+    font-size: 36px;
+  }
+
+  .features h2 {
+    font-size: 28px;
+  }
+
+  .features p {
+    font-size: 18px;
+  }
+}
+
+
+
+@media(min-width: 1024px) {
+  .feature {
+    float: left;
+    width: 33%;
+    padding: 20px;
+  }
+
+  .features {
+    margin-top: 50px;
+    padding: 5% 2%;
+  }
+
+  .features h1 {
+    font-size: 36px;
+  }
+
+  .features h2 {
+    font-size: 22px;
+  }
+
+  .features p {
+    font-size: 16px;
+    line-height: 120%;
+    padding: 0 10px;
+  }
+}
+
+@media(min-width: 1600px) {
+  .feature {
+    padding: 20px 40px;
+  }
+
+  .features h1 {
+    font-size: 60px;
+  }
+
+  .features h2 {
+    font-size: 32px;
+  }
+
+  .features p {
+    font-size: 21px;
+    line-height: 140%;
+    padding: 0 10px;
+  }
+}
+
 section {
   min-height: 100vh;
 }
